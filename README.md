@@ -25,7 +25,7 @@ flowchart LR
 Python 3.11; Studio 권한 없이 **로컬 계산 예제**를 수행할 수 있음.
 
 ```bash
-git clone https://github.com/dohun3540-crypto/leadtime-guardian-agent.git
+git clone https://github.com/knustu/leadtime-guardian-agent.git
 cd leadtime-guardian-agent
 python -m venv .venv
 # Windows PowerShell: .\.venv\Scripts\Activate.ps1
@@ -81,3 +81,7 @@ C001 문서와 연결 검증: [C001 integration checkpoint](docs/C001_INTEGRATIO
 - [Upstage 모델 지원 변경](https://console.upstage.ai/docs/capabilities/generate/reasoning)
 - [경북대 공지 변경](https://aicollege.knu.ac.kr/bbs/board.php?bo_table=sub6_1_a&wr_id=29480)
 - [울산대 상세 일정](https://ie.ulsan.ac.kr/ie/893?action=view&no=282626)
+
+## 팀 인계 (2026-11-05 KST)
+
+먼저 docs/PYTHON_SAFETY_V6_HANDOFF.md와 docs/member2_v6/VALIDATION_MATRIX.md를 읽으세요. Studio 설정 후보 검토는 docs/member2_v6/20261102_candidate_review/CONFIG_REVIEW.json을 참고하세요. 실제 Studio 예측과 PDF 근거 검증, C013 실제 출력 확보가 남았습니다. API 키는 .env.example을 참고하여 로컬 환경변수로 설정하세요. 2026-11-05 로컬 회귀 테스트: 189개 통과. 외부 API 및 Studio는 이번에 실행하지 않았습니다.
