@@ -1,0 +1,109 @@
+{
+  "content": "{\"documents\":[{\"document_id\":\"C013-NOTICE\",\"document_type\":\"delivery_notice\",\"po_id\":\"PO999\",\"supplier_id\":null,\"original_delivery\":\"2026-11-03\",\"revised_delivery\":\"2026-11-08\",\"items\":[{\"product_id\":\"A\",\"receipt_id\":\"R1\",\"quantity\":100,\"unit\":\"EA\"}],\"quote\":null,\"warnings\":[\"PO ID conflict: document_id C013-NOTICE has po_id PO999, while related documents C013-PO and C013-QUOTE have po_id PO1\",\"검토 필요: 원문 근거 확인 불가 - supplier_id\"],\"evidence\":[{\"source_page\":1,\"source_field\":\"document_id\",\"source_value\":\"C013-NOTICE\",\"confidence\":null},{\"source_page\":1,\"source_field\":\"po_id\",\"source_value\":\"PO999\",\"confidence\":null},{\"source_page\":1,\"source_field\":\"original_delivery\",\"source_value\":\"2026-11-03\",\"confidence\":null},{\"source_page\":1,\"source_field\":\"revised_delivery\",\"source_value\":\"2026-11-08\",\"confidence\":null},{\"source_page\":1,\"source_field\":\"items[0].product_id\",\"source_value\":\"A\",\"confidence\":null},{\"source_page\":1,\"source_field\":\"items[0].receipt_id\",\"source_value\":\"R1\",\"confidence\":null},{\"source_page\":1,\"source_field\":\"items[0].quantity\",\"source_value\":\"100\",\"confidence\":null},{\"source_page\":1,\"source_field\":\"items[0].unit\",\"source_value\":\"EA\",\"confidence\":null}]},{\"document_id\":\"C013-PO\",\"document_type\":\"purchase_order\",\"po_id\":\"PO1\",\"supplier_id\":null,\"original_delivery\":\"2026-11-03\",\"revised_delivery\":null,\"items\":[{\"product_id\":\"A\",\"receipt_id\":\"R1\",\"quantity\":100,\"unit\":\"EA\"}],\"quote\":null,\"warnings\":[\"PO ID conflict: document_id C013-PO has po_id PO1, while document C013-NOTICE has po_id PO999\",\"검토 필요: 원문 근거 확인 불가 - supplier_id\"],\"evidence\":[{\"source_page\":2,\"source_field\":\"document_id\",\"source_value\":\"C013-PO\",\"confidence\":null},{\"source_page\":2,\"source_field\":\"po_id\",\"source_value\":\"PO1\",\"confidence\":null},{\"source_page\":2,\"source_field\":\"original_delivery\",\"source_value\":\"2026-11-03\",\"confidence\":null},{\"source_page\":2,\"source_field\":\"items[0].product_id\",\"source_value\":\"A\",\"confidence\":null},{\"source_page\":2,\"source_field\":\"items[0].receipt_id\",\"source_value\":\"R1\",\"confidence\":null},{\"source_page\":2,\"source_field\":\"items[0].quantity\",\"source_value\":\"100\",\"confidence\":null},{\"source_page\":2,\"source_field\":\"items[0].unit\",\"source_value\":\"EA\",\"confidence\":null}]},{\"document_id\":\"C013-QUOTE\",\"document_type\":\"quotation\",\"po_id\":\"PO1\",\"supplier_id\":\"S1\",\"original_delivery\":null,\"revised_delivery\":null,\"items\":[{\"product_id\":\"A\",\"receipt_id\":null,\"quantity\":60,\"unit\":\"EA\"}],\"quote\":{\"quote_id\":\"Q013\",\"supplier_id\":\"S1\",\"product_id\":\"A\",\"capacity\":60,\"arrival_date\":\"2026-11-04\",\"unit_price\":\"1000.00\",\"shipping_cost\":\"500\",\"currency\":\"KRW\"},\"warnings\":[],\"evidence\":[{\"source_page\":3,\"source_field\":\"document_id\",\"source_value\":\"C013-QUOTE\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"po_id\",\"source_value\":\"PO1\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"supplier_id\",\"source_value\":\"S1\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"items[0].product_id\",\"source_value\":\"A\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"items[0].quantity\",\"source_value\":\"60\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"items[0].unit\",\"source_value\":\"EA\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"quote.quote_id\",\"source_value\":\"Q013\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"quote.supplier_id\",\"source_value\":\"S1\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"quote.product_id\",\"source_value\":\"A\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"quote.capacity\",\"source_value\":\"60\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"quote.arrival_date\",\"source_value\":\"2026-11-04\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"quote.unit_price\",\"source_value\":\"1000.00 KRW / EA\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"quote.shipping_cost\",\"source_value\":\"500 KRW (once per quote)\",\"confidence\":null},{\"source_page\":3,\"source_field\":\"quote.currency\",\"source_value\":\"KRW\",\"confidence\":null}]}]}",
+  "metadata": {
+    "step_run_id": "8860b025-0530-5499-af23-7b99b9773c43",
+    "occurrence_id": "8860b025-0530-5499-af23-7b99b9773c43",
+    "job_execution_id": "job_m67ijpRZDs4sH5o4huVyuz",
+    "cache_hit": false,
+    "merge": {
+      "step_name": "MergeDocuments",
+      "items": [
+        {
+          "document_type": "delivery_notice",
+          "page_ranges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "source_files": [
+            {
+              "file_id": "file_UBqiLDKah5Qbx5JGGbdySt",
+              "file_name": "SYN-C013_delivery_notice.pdf",
+              "page_ranges": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "document_type": "purchase_order",
+          "page_ranges": [
+            [
+              2,
+              2
+            ]
+          ],
+          "source_files": [
+            {
+              "file_id": "file_gQBktW2EJF8H8bhga6BhSS",
+              "file_name": "SYN-C013_purchase_order.pdf",
+              "page_ranges": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "document_type": "quotation",
+          "page_ranges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "source_files": [
+            {
+              "file_id": "file_3KGM8FcqfiQe8tpNfHudi3",
+              "file_name": "SYN-C013_quotation.pdf",
+              "page_ranges": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_files": [
+      {
+        "file_id": "file_UBqiLDKah5Qbx5JGGbdySt",
+        "file_name": "SYN-C013_delivery_notice.pdf",
+        "page_ranges": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "file_id": "file_gQBktW2EJF8H8bhga6BhSS",
+        "file_name": "SYN-C013_purchase_order.pdf",
+        "page_ranges": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "file_id": "file_3KGM8FcqfiQe8tpNfHudi3",
+        "file_name": "SYN-C013_quotation.pdf",
+        "page_ranges": [
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ]
+  }
+}
