@@ -1,0 +1,275 @@
+[
+  {
+    "document_id": "C008-NOTICE",
+    "document_type": "delivery_notice",
+    "po_id": "PO1",
+    "supplier_id": null,
+    "original_delivery": "2026-11-03",
+    "revised_delivery": "2026-11-08",
+    "items": [
+      {
+        "product_id": "A",
+        "receipt_id": "R2",
+        "quantity": 60,
+        "unit": "EA"
+      }
+    ],
+    "quote": null,
+    "warnings": [],
+    "evidence": [
+      {
+        "source_page": 1,
+        "source_field": "document_id",
+        "source_value": "C008-NOTICE",
+        "confidence": null
+      },
+      {
+        "source_page": 1,
+        "source_field": "po_id",
+        "source_value": "PO1",
+        "confidence": null
+      },
+      {
+        "source_page": 1,
+        "source_field": "original_delivery",
+        "source_value": "2026-11-03",
+        "confidence": null
+      },
+      {
+        "source_page": 1,
+        "source_field": "revised_delivery",
+        "source_value": "2026-11-08",
+        "confidence": null
+      },
+      {
+        "source_page": 1,
+        "source_field": "items[0].product_id",
+        "source_value": "A",
+        "confidence": null
+      },
+      {
+        "source_page": 1,
+        "source_field": "items[0].receipt_id",
+        "source_value": "R2",
+        "confidence": null
+      },
+      {
+        "source_page": 1,
+        "source_field": "items[0].quantity",
+        "source_value": "60",
+        "confidence": null
+      },
+      {
+        "source_page": 1,
+        "source_field": "items[0].unit",
+        "source_value": "EA",
+        "confidence": null
+      }
+    ]
+  },
+  {
+    "document_id": "C008-PO",
+    "document_type": "purchase_order",
+    "po_id": "PO1",
+    "supplier_id": null,
+    "original_delivery": "2026-11-03",
+    "revised_delivery": null,
+    "items": [
+      {
+        "product_id": "A",
+        "receipt_id": "R1",
+        "quantity": 40,
+        "unit": "EA"
+      },
+      {
+        "product_id": "A",
+        "receipt_id": "R2",
+        "quantity": 60,
+        "unit": "EA"
+      }
+    ],
+    "quote": null,
+    "warnings": [],
+    "evidence": [
+      {
+        "source_page": 2,
+        "source_field": "document_id",
+        "source_value": "C008-PO",
+        "confidence": null
+      },
+      {
+        "source_page": 2,
+        "source_field": "po_id",
+        "source_value": "PO1",
+        "confidence": null
+      },
+      {
+        "source_page": 2,
+        "source_field": "original_delivery",
+        "source_value": "2026-11-03",
+        "confidence": null
+      },
+      {
+        "source_page": 2,
+        "source_field": "items[0].product_id",
+        "source_value": "A",
+        "confidence": null
+      },
+      {
+        "source_page": 2,
+        "source_field": "items[0].receipt_id",
+        "source_value": "R1",
+        "confidence": null
+      },
+      {
+        "source_page": 2,
+        "source_field": "items[0].quantity",
+        "source_value": "40",
+        "confidence": null
+      },
+      {
+        "source_page": 2,
+        "source_field": "items[0].unit",
+        "source_value": "EA",
+        "confidence": null
+      },
+      {
+        "source_page": 2,
+        "source_field": "items[1].product_id",
+        "source_value": "A",
+        "confidence": null
+      },
+      {
+        "source_page": 2,
+        "source_field": "items[1].receipt_id",
+        "source_value": "R2",
+        "confidence": null
+      },
+      {
+        "source_page": 2,
+        "source_field": "items[1].quantity",
+        "source_value": "60",
+        "confidence": null
+      },
+      {
+        "source_page": 2,
+        "source_field": "items[1].unit",
+        "source_value": "EA",
+        "confidence": null
+      }
+    ]
+  },
+  {
+    "document_id": "C008-QUOTE",
+    "document_type": "quotation",
+    "po_id": "PO1",
+    "supplier_id": "S1",
+    "original_delivery": null,
+    "revised_delivery": null,
+    "items": [
+      {
+        "product_id": "A",
+        "receipt_id": null,
+        "quantity": 60,
+        "unit": "EA"
+      }
+    ],
+    "quote": {
+      "quote_id": "Q008",
+      "supplier_id": "S1",
+      "product_id": "A",
+      "capacity": 60,
+      "arrival_date": "2026-11-04",
+      "unit_price": "1000.00",
+      "shipping_cost": "500",
+      "currency": "KRW"
+    },
+    "warnings": [],
+    "evidence": [
+      {
+        "source_page": 3,
+        "source_field": "document_id",
+        "source_value": "C008-QUOTE",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "po_id",
+        "source_value": "PO1",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "supplier_id",
+        "source_value": "S1",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "items[0].product_id",
+        "source_value": "A",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "items[0].quantity",
+        "source_value": "60",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "items[0].unit",
+        "source_value": "EA",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "quote.quote_id",
+        "source_value": "Q008",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "quote.supplier_id",
+        "source_value": "S1",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "quote.product_id",
+        "source_value": "A",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "quote.capacity",
+        "source_value": "60",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "quote.arrival_date",
+        "source_value": "2026-11-04",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "quote.unit_price",
+        "source_value": "1000.00 KRW / EA",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "quote.shipping_cost",
+        "source_value": "500 KRW (once per quote)",
+        "confidence": null
+      },
+      {
+        "source_page": 3,
+        "source_field": "quote.currency",
+        "source_value": "KRW",
+        "confidence": null
+      }
+    ]
+  }
+]
